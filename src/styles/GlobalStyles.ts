@@ -50,6 +50,7 @@ a {
   color: inherit;
   display: block;
   text-decoration: none;
+  cursor: pointer;
 }
 
 ol, ul {
@@ -71,4 +72,7 @@ table {
   border-spacing: 0;
 }
 
+button {
+  cursor: pointer;
+}
 `;
