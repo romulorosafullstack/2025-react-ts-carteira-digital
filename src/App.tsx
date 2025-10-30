@@ -1,7 +1,17 @@
-export default function App() {
+import Dashboard from "./pages/Dashboard"
+import List from "./pages/List"
+import Signin from "./pages/Signin"
+import GlobalStyles from "./styles/GlobalStyles"
+
+const App: React.FC = () => {
   return (
     <>
-      <h1>Projeto Limpo</h1>
+      <GlobalStyles />
+      <Dashboard />
+      <List />
+      <Signin />
     </>
   )
 }
+
+export default App
