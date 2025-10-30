@@ -13,7 +13,7 @@ export default createGlobalStyle`
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 62.5%;
   line-height: 1;
   list-style-type: none;
