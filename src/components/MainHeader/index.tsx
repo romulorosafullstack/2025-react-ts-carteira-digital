@@ -1,6 +1,6 @@
 import { Container } from "./styles"
 
-export const MainHeader: React.FC = () => {
+const MainHeader: React.FC = () => {
   return (
     <>
       <Container>
@@ -9,3 +9,5 @@ export const MainHeader: React.FC = () => {
     </>
   )
 }
+
+export default MainHeader;
