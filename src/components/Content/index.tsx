@@ -9,3 +9,5 @@ export const Content: React.FC = () => {
     </>
   )
 }
+
+export default Content;
