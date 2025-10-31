@@ -1,6 +1,6 @@
 import { Container } from "./styles"
 
-export const Aside: React.FC = () => {
+const Aside: React.FC = () => {
   return (
     <>
       <Container>
@@ -9,3 +9,5 @@ export const Aside: React.FC = () => {
     </>
   )
 }
+
+export default Aside;
