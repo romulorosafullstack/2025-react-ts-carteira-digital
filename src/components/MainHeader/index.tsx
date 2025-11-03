@@ -13,10 +13,10 @@ const MainHeader: React.FC = () => {
         <Profile>
           <Welcome>
             Olá,
+            <UserName>
+              Romulo
+            </UserName>
           </Welcome>
-          <UserName>
-            Romulo
-          </UserName>
         </Profile>
       </Container>
     </>
